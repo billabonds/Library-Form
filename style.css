@@ -1,0 +1,28 @@
+/* .main{
+    width: 100%;
+} */
+
+.navbar{
+    height: 2rem;
+    position: sticky;
+    background-color: black;
+    color: white;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+#btn{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 2rem;
+    /* border-radius: 10px; */
+}
+

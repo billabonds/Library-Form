@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contest - 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <!-- Navigation - bar -->
+        <div class="navbar">
+            <h3>Library System</h3>
+            <div class="link"> 
+                <a href="#book">Books</a>
+                <a href="#register">Register</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Logout</a>
+            </div>
+        </div>
+
+        <!-- New Div for Books -->
+        <section>
+            <table border="1" cellspacing="0">
+                <h1>Books</h1>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td style="padding: 0.5rem;">
+                        <a href="#">Book Title 1</a>
+
+                        <table border="1" cellspacing="0">
+
+                            <tr>
+                                <td>Publication Date: 2000</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 250</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890123</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Author Name 1</td>
+                    <td>Genre 1</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td style="padding: 0.5rem;">
+                        <a href="#">Book Title 2</a>
+
+                        <table border="1" cellspacing="0">
+
+                            <tr>
+                                <td>Publication Date: 2005</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 300</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890456</td>
+                            </tr>
+                        </table>
+
+                    </td>
+                    <td>Author Name 2</td>
+                    <td>Genre 2</td>
+                    <td>Not Available</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td style="padding: 0.5rem;">
+                        <a href="#">Book Title 3</a>
+
+                        <table border="1" cellspacing="0">
+
+                            <tr>
+                                <td>Publication Date: 2010</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 350</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890789</td>
+                            </tr>
+                        </table>
+
+                    </td>
+                    <td>Author Name 3</td>
+                    <td>Genre 3</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td style="padding: 0.5rem;">
+                        <a href="#">Book Title 4</a>
+
+                        <table border="1" cellspacing="0">
+
+                            <tr>
+                                <td>Publication Date: 2012</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 450</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890444</td>
+                            </tr>
+                        </table>
+
+                    </td>
+                    <td>Author Name 4</td>
+                    <td>Genre 4</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td style="padding: 0.5rem;">
+                        <a href="#">Book Title 5</a>
+
+                        <table border="1" cellspacing="0">
+
+                            <tr>
+                                <td>Publication Date: 2015</td>
+                            </tr>
+                            <tr>
+                                <td>Page Count: 450</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 123-4567890555</td>
+                            </tr>
+                        </table>
+
+                    </td>
+                    <td>Author Name 5</td>
+                    <td>Genre 5</td>
+                    <td>Not Available</td>
+                </tr>
+
+            </table>
+        </section>    
+
+        <!-- New Div for Register -->
+        <form method="POST" id="register" action="#"> 
+            <h1>Register</h1>  
+
+            <label>First Name:</label><br>
+            <input type="text" id="name" required placeholder="Shivam"><br>
+            
+            <label>Last Name:</label><br>
+            <input type="text" required placeholder="Goel"><br>
+    
+            <label>Date Of Birth:</label><br>
+            <input type="date" id="dob" required><br>
+        
+            <label>Age:</label><br>
+            <input type="number" id="age" required min="5" max="100" placeholder="26"><br>
+        
+            <label>Email:</label><br>
+            <input type="email" id="email" required><br>
+        
+            <label>Password:</label><br>
+            <input type="password" id="password" required><br>
+        
+            <label>Confirm Password:</label><br>
+            <input type="password" id="password" required><br>
+            
+            <br>
+            <input type="submit" value="Register" id="btn">
+        
+        </form>
+
+    </div>
+</body>
+
+</html>
